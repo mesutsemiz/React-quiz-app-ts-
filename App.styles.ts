@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-
 export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
@@ -14,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
   }
   * {
-    font-family: 'Catamaran', sans-serif;
+    font-family:sans-serif;
     box-sizing: border-box;
   }
 `;
